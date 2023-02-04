@@ -8,11 +8,12 @@ template.innerHTML = `
         <main>
             <section>
                 <div>
-                    <h5>Help</h5>
+                    <h5>Lead Architect</h5>
                     <ul>
-                        <li><a href="#faqs">FAQs</a></li>
+                        <li><a href="https://thonly.org">Thon Ly</a></li>
                     </ul> 
                 </div>
+                <a href="https://calendar.thonly.org"><button>Book FREE Consultation</button></a>
             </section>
             <section>
                 <div>
@@ -42,8 +43,9 @@ template.innerHTML = `
                     </ul>
                 </div>
                 <div>
-                    <h5>Support</h5>
+                    <h5>Help & Support</h5>
                     <ul>
+                        <li><a href="#faqs">FAQs</a></li>
                         <li><a href="mailto:agency@siliconwat.dev">agency@siliconwat.dev</a></li>
                     </ul> 
                 </div>

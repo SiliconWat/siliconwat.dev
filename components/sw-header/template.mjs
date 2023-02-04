@@ -26,8 +26,13 @@ template.innerHTML = `
                     <h4>Custom Development</h4>
                     <menu>
                         <li><a>Web / Mobile</a></li>
-                        <li><a>Blockchain</a></li>
+                        <li><a>Blockchain / Smart Contract</a></li>
                         <li><a>iOS / Android</a></li>
+                    </menu>
+                    <h4>Specializations</h4>
+                    <menu>
+                        <li><a>THonly™ eNovels</a></li>
+                        <li><a>HeartBank<sup>®</sup> subBlockchains</a></li>
                     </menu>
                     <h4>Pay After Finished</h4>
                     <menu>
@@ -46,6 +51,13 @@ template.innerHTML = `
                         <li><a>We Find + You Manage</a></li>
                         <li><a>You Find + We Manage</a></li>
                         <li><a>We Find + We Manage</a></li>
+                    </menu>
+                    <h4>Admission Process</h4>
+                    <menu>
+                        <li><a>Beginner Student</a></li>
+                        <li><a>Volunteer Tutor</a></li>
+                        <li><a>Freelance Consultant</a></li>
+                        <li><a>CEO Apprenticeship</a></li>
                     </menu>
                 </nav>
             </li>
