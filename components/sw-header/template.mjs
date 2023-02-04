@@ -29,7 +29,7 @@ template.innerHTML = `
                         <li><a>Blockchain</a></li>
                         <li><a>iOS / Android</a></li>
                     </menu>
-                    <h4>Pay When Finished</h4>
+                    <h4>Pay After Finished</h4>
                     <menu>
                         <li><a>Escrow Service</a></li>
                         <li><a>Maintenance Fee</a></li>
