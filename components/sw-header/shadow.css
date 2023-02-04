@@ -1,0 +1,21 @@
+:host {
+	font-size: medium;
+}
+
+section {
+	flex: 4;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+@media (max-width: 480px) {
+	section {
+		flex: 3;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+}

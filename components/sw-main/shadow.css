@@ -1,0 +1,49 @@
+:host {
+  display: none;
+  font-size: medium;
+  color: white;
+}
+
+header, main {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+tl-robot {
+  float: right;
+}
+
+video {
+  width: 100%;
+  opacity: 0.5;
+}
+
+@media (max-width: 480px) {
+  :host {
+      font-size: small;
+  }
+
+  header {
+    margin-top: 2%;
+  }
+
+  tl-robot {
+    display: none;
+  }
+}

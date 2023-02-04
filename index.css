@@ -1,0 +1,28 @@
+:root {
+    --palette-color-1: #264653;
+    --palette-color-2: #2A9D8F;
+    --palette-color-3: #bde0fe;
+    --palette-color-4: #457b9d;
+    --palette-color-5: black;
+}
+
+body {
+    background: var(--palette-color-5);
+}
+
+header {
+    background-color: white;
+}
+
+footer {
+    background-color: var(--palette-color-5);
+}
+
+sw-header {
+    --theme-color-1: var(--palette-color-1);
+    --theme-color-2: var(--palette-color-2);
+}
+
+sw-footer {
+    --theme-color: var(--palette-color-5);
+}
