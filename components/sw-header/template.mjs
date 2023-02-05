@@ -17,7 +17,7 @@ template.innerHTML = `
             <li>
                 <h3>Pricing</h3>
                 <nav>
-                    <a href="#hire"><button class="coin">Hire Us</button></a>
+                    <a href="#hire"><button class="coin">Hire Your Own Development Team</button></a>
                     <h4>FREE Static Website</h4>
                     <menu>
                         <li><a>Create Prototype</a></li>
@@ -44,13 +44,15 @@ template.innerHTML = `
             <li>
                 <h3>Earning</h3>
                 <nav>
-                    <a href="#earn"><button class="coin">Get Paid</button></a>
+                    <a href="#earn"><button class="coin">Get Paid as a Freelance Consultant</button></a>
                     <h4>Earning Tiers</h4>
                     <menu>
-                        <li><a>You Find + You Manage</a></li>
+                        <li><a>Clients Discovered By You</a></li>
+                        <li><a>Clients Discovered By Us</a></li>
+                        <!--<li><a>You Find + You Manage</a></li>
                         <li><a>We Find + You Manage</a></li>
                         <li><a>You Find + We Manage</a></li>
-                        <li><a>We Find + We Manage</a></li>
+                        <li><a>We Find + We Manage</a></li>-->
                     </menu>
                     <h4>Admission Process</h4>
                     <menu>

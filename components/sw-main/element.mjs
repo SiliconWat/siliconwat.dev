@@ -19,20 +19,29 @@ class SwMain extends HTMLElement {
     }
 
     #render(refresh) {
+        let element;
         const page = window.location.hash.substring(1);
-        this.shadowRoot.querySelectorAll('header, main, footer').forEach(element => element.style.display = 'none');
+        const header = this.shadowRoot.querySelector('header');
+        const main = this.shadowRoot.querySelector('main');
+        const footer = this.shadowRoot.querySelector('footer');
+        header.style.display = 'none';
+        main.style.display = 'none';
+        footer.style.display = 'none';
+        //this.shadowRoot.querySelectorAll('header, main, footer').forEach(element => element.style.display = 'none');
         
-        if (page) {
-            this.shadowRoot.querySelector('tl-kiitos').render(kiitos[page]);
-            this.shadowRoot.querySelector('header').style.display = 'block';
+        if (page === 'hire' || page === 'earn' || page === '') {
+            element = page === 'hire' ? main : page === 'earn' ? footer : document.body;
+            main.style.display = 'block';
+            footer.style.display = 'block';
         } else {
-            this.shadowRoot.querySelector('main').style.display = 'block';
-            this.shadowRoot.querySelector('footer').style.display = 'block';
+            element = document.body;
+            this.shadowRoot.querySelector('tl-kiitos').render(kiitos[page]);
+            header.style.display = 'block';
         }
         
         this.style.display = 'block';
-        if (refresh) setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300)
-        else document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
+        if (refresh) setTimeout(() => element.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300)
+        else element.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
     }
 
     #observer(elements) {

@@ -13,28 +13,38 @@ section {
   position: absolute;
   width: 100%;
   text-align: center;
+}
+
+header section {
   margin-top: 5%;
 }
 
-header {
-
+main section {
+  margin-top: 10%;
 }
 
-main {
-
-}
-
-footer {
-
-}
-
-tl-robot {
-  float: right;
+footer section {
+  margin-top: 10%;
 }
 
 video {
   width: 100%;
-  opacity: 0.5;
+}
+
+header video {
+  opacity: 1;
+}
+
+main video {
+  opacity: 0.25;
+}
+
+footer video {
+  opacity: 0.25;
+}
+
+tl-robot {
+  float: right;
 }
 
 @media (max-width: 480px) {
