@@ -47,6 +47,8 @@ template.innerHTML = `
                     <a href="#earn"><button class="coin">Get Paid as a Freelance Consultant</button></a>
                     <h4>Earning Tiers</h4>
                     <menu>
+                        <li><a>Lead Architects</a></li>
+                        <li><a>Software Engineers</a></li>
                         <li><a>Clients Discovered By You</a></li>
                         <li><a>Clients Discovered By Us</a></li>
                         <!--<li><a>You Find + You Manage</a></li>
@@ -59,7 +61,7 @@ template.innerHTML = `
                         <li><a>Beginner Student</a></li>
                         <li><a>Volunteer Tutor</a></li>
                         <li><a>Freelance Consultant</a></li>
-                        <li><a>CEO Apprenticeship</a></li>
+                        <li><a>Architect Apprenticeship</a></li>
                     </menu>
                 </nav>
             </li>

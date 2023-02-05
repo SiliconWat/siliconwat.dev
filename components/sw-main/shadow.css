@@ -47,13 +47,81 @@ tl-robot {
   float: right;
 }
 
+h1 {
+  font-size: 3em;
+}
+
+ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  margin: 20px;
+  color: whitesmoke;
+}
+
+main li::before {
+  content: "✅";
+  margin-right: 20px;
+}
+
+footer li::before {
+  content: "💰";
+  margin-right: 15px;
+}
+
+strong, em {
+  color: white;
+}
+
+main strong {
+  color: orange
+}
+
 @media (max-width: 480px) {
   :host {
       font-size: small;
   }
 
-  header {
-    margin-top: 2%;
+  header section {
+    margin-top: 3%;
+  }
+
+  main section {
+    margin-top: 0;
+  }
+  
+  footer section {
+    margin-top: 0;
+  }
+
+  footer {
+    height: 50vh;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  ul {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  li {
+    margin: 10px;
+  }
+
+  main li::before {
+    margin-right: 10px;
+  }
+  
+  footer li::before {
+    margin-right: 5px;
   }
 
   tl-robot {
