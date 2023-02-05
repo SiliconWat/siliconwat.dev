@@ -3,14 +3,22 @@ const template = document.createElement("template");
 template.innerHTML = `
     <link rel="stylesheet" href="components/sw-main/shadow.css">
     <header>
-        <tl-kiitos></tl-kiitos>
-        <tl-robot></tl-robot>
+        <section>
+            <tl-kiitos></tl-kiitos>
+            <tl-robot></tl-robot>
+        </section>
+        <video src="components/sw-main/kiitos.mp4" autoplay preload loop muted playsinline></video>
     </header>
     <main>
-        <h1>TBA</h1>
+        <section>
+            <h1>Hire</h1>
+        </section>
+        <video src="components/sw-main/hire.mp4" autoplay preload loop muted playsinline></video>
     </main>
     <footer>
-        <video src="components/sw-main/hire.mp4" autoplay preload loop muted playsinline></video>
+        <section>
+            <h1>Earn</h1>
+        </section>
         <video src="components/sw-main/earn.mp4" autoplay preload loop muted playsinline></video>
     </footer>
 `;
