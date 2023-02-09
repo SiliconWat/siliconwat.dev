@@ -82,9 +82,14 @@ main strong {
   color: orange
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) or (max-height: 480px) {
   :host {
       font-size: small;
+  }
+
+  footer {
+    height: max(50vw, 100%);
+    background-color: #222;
   }
 
   header section {
@@ -97,10 +102,6 @@ main strong {
   
   footer section {
     margin-top: 0;
-  }
-
-  footer {
-    height: 50vh;
   }
 
   h1 {
@@ -126,5 +127,9 @@ main strong {
 
   tl-robot {
     display: none;
+  }
+
+  tl-kiitos {
+    --width: 60vw;
   }
 }
