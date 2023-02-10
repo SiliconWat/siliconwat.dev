@@ -87,11 +87,6 @@ main strong {
       font-size: small;
   }
 
-  footer {
-    height: max(50vw, 100%);
-    background-color: #222;
-  }
-
   header section {
     margin-top: 3%;
   }
@@ -109,7 +104,7 @@ main strong {
   }
 
   ul {
-    font-size: 1em;
+    font-size: 10pt;
     width: 90%;
   }
 
@@ -131,5 +126,12 @@ main strong {
 
   tl-kiitos {
     --width: 60vw;
+  }
+}
+
+@media (max-width: 480px) {
+  main, footer {
+    height: max(60vw, 60vh);
+    background-color: #222;
   }
 }
