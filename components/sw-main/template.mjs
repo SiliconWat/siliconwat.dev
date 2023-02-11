@@ -13,9 +13,9 @@ template.innerHTML = `
         <section>
             <h1>Hire Your <em>Own</em> Development Team!</h1>
             <ul>
-                <li><b>Led</b> by <em>one</em> of our <strong><u>Seasoned</u> Architects</b></strong></li>
-                <li><b>Engineered</b> by <em>one</em> of our <strong><u>Top</u> Graduates</strong></li>
-                <li><b>Managed</b> by <em>you</em> until you're <strong><u>100%</u> Happy</strong></li>
+                <li><strong>Led</strong> by <em>one</em> of our <strong><u>Seasoned</u> Architects</strong></li>
+                <li><strong>Engineered</strong> by <em>one</em> of our <strong><u>Top</u> Graduates</strong></li>
+                <li><strong>Managed</strong> by <em>you</em> until you're <strong><u>100%</u> Happy</strong></li>
             </ul>
         </section>
         <video src="components/sw-main/hire.mp4" autoplay preload loop muted playsinline></video>
