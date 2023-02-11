@@ -135,3 +135,9 @@ main strong {
     background-color: #222;
   }
 }
+
+@media (max-height: 480px) {
+  li {
+    font-size: 10pt;
+  }
+}
