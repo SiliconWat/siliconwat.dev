@@ -137,7 +137,7 @@ main strong {
 }
 
 @media (max-height: 480px) {
-  li {
-    
+  ul, li, li strong, li em, li u {
+    font-size: 10pt;
   }
 }
