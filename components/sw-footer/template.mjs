@@ -13,7 +13,7 @@ template.innerHTML = `
                         <li><a href="https://thonly.org">Thon Ly</a></li>
                     </ul> 
                 </div>
-                <a href="https://calendar.thonly.org"><button>Book FREE Consultation</button></a>
+                <a><button>Book FREE Consultation</button></a>
             </section>
             <section>
                 <div>
