@@ -30,11 +30,11 @@ template.innerHTML = `
                             <li><a>Blockchain / Smart Contract</a></li>
                             <li><a>iOS / Android</a></li>
                         </menu>
-                        <h4>Specializations</h4>
+                        <!--<h4>Specializations</h4>
                         <menu>
                             <li><a>THonly™ eNovels</a></li>
                             <li><a>HeartBank<sup>®</sup> subBlockchains</a></li>
-                        </menu>
+                        </menu>-->
                         <h4>Pay After Finished</h4>
                         <menu>
                             <li><a>Escrow Service</a></li>
