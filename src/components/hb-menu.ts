@@ -22,6 +22,8 @@ export class HbMenu extends LitElement {
 
     @property({ type: Boolean, reflect: true }) open = false;
     @state() private signedIn = false;
+    // ⭐ /build 12b §auth-dots (A661, founder 2026-11-18: "do all open items"): the stranger's items wait for auth's answer.
+    @state() private authKnown = false;
     @state() private accountsOpen = false;
 
     connectedCallback() {
@@ -31,6 +33,7 @@ export class HbMenu extends LitElement {
 
         onAuthStateChanged(auth, (user) => {
             this.signedIn = !!user;
+            this.authKnown = true;
         });
     }
 
@@ -283,6 +286,8 @@ export class HbMenu extends LitElement {
                                       </button>
                                   </li>
                               `
+                            : !this.authKnown
+                            ? ""
                             : html`
                                   <li>
                                       <a
